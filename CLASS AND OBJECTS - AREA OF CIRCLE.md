@@ -29,15 +29,20 @@ To write a Python program to take the radius from the user and find the area of 
 
 ```
 
-
+from math import pi
+class umbrella():
+    def rain():
+        r=int(input())
+        return pi*(r**2)
+        
+print("Area of circle:",round(umbrella.rain(),2))
 
 ```
 
 ### OUTPUT
 
-
+![image](https://github.com/user-attachments/assets/8d86e33e-5d6a-451a-b0c3-aff01f7a3579)
 
 ### RESULT
 
-
-
+Thus, the Python program to take the radius from the user and find the area of a circle using the class name `umbrella` and function name `rain` has been executed and verified successfully.
